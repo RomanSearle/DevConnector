@@ -12,10 +12,7 @@ const connectDB = async () => {
             useNewUrlParser: true,
             useUnifiedTopology: true,
           });
-        
-          mongoose.connection.once("open", () => {
-            console.log("Database Connected!");
-          });
+        console.log("Database Connected!");  
     } catch (error) {
         console.error(error.message);
         // Exit Process with Failure
