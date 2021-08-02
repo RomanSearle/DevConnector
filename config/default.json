@@ -1,3 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://user:10026712@cluster0.1gnpj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    "mongoURI": "mongodb+srv://user:10026712@cluster0.1gnpj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "jwtSecret": "mysecrettoken"
 }
